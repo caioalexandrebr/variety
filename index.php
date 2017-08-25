@@ -13,14 +13,14 @@
 <header class="bgParallax" data-speed="10">
     <nav>
         <div class="bt-logo">
-            <a href="/" title="START" >LOGO</a>
+            <a href="#" title="START" >LOGO</a>
         </div>
         <div class="menu">
             <li>
-                <ul><a href="/" title="START" class="active" >START</a></ul>
-                <ul><a href="/" title="ABOUT ME" >ABOUT ME</a></ul>
-                <ul><a href="/" title="WORK" >WORK</a></ul>
-                <ul><a href="/" title="CONTACT" >CONTACT</a></ul>
+                <ul><a href="#" title="START" class="active" >START</a></ul>
+                <ul><a href="#" title="ABOUT ME" >ABOUT ME</a></ul>
+                <ul><a href="#" title="WORK" >WORK</a></ul>
+                <ul><a href="#" title="CONTACT" >CONTACT</a></ul>
             </li>
         </div>
     </nav>
@@ -30,7 +30,7 @@
         <h2>Frontend Design | UI/UX Design</h2>
         
         <div id="header-bt">
-            <a href="/" title="GO AHEAD" >GO AHEAD</a>
+            <a href="#" title="GO AHEAD" >GO AHEAD</a>
         </div>
     </div>
 </header>
@@ -66,7 +66,46 @@
             <h2>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren.</h2>
         </div>
     </aside>
+
+    <div class="article-left">
+        <div class="article">
+            <a href="#" title="Lorem ipsum dolor sit" class="article-search"></a>
+            <div class="article-ft">
+                <a href="#" title="Lorem ipsum dolor sit" >Lorem ipsum dolor sit</a>
+                <h2>amet consetetur sadipscing elitr</h2>
+            </div>
+            <div class="article-img"></div>
+        </div>
+        <div class="article">
+            <a href="#" title="Lorem ipsum dolor sit" class="article-search"></a>
+            <div class="article-ft">
+                <a href="#" title="Lorem ipsum dolor sit" >Lorem ipsum dolor sit</a>
+                <h2>amet consetetur sadipscing elitr</h2>
+            </div>
+            <div class="article-img"></div>
+        </div>
+    </div>
+    <div class="article-right">
+        <div class="article">
+            <a href="#" title="Lorem ipsum dolor sit" class="article-search"></a>
+            <div class="article-ft">
+                <a href="#" title="Lorem ipsum dolor sit" >Lorem ipsum dolor sit</a>
+                <h2>amet consetetur sadipscing elitr</h2>
+            </div>
+            <div class="article-img"></div>
+        </div>
+        <div class="article">
+            <a href="#" title="Lorem ipsum dolor sit" class="article-search"></a>
+            <div class="article-ft">
+                <a href="#" title="Lorem ipsum dolor sit" >Lorem ipsum dolor sit</a>
+                <h2>amet consetetur sadipscing elitr</h2>
+            </div>
+            <div class="article-img"></div>
+        </div>
+    </div>
 </div>
+
+
 
 <script>
 $('div.bgParallax').each(function(){

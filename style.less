@@ -3,6 +3,7 @@
 
 @font-color1: #fff;
 @font-color2: #95a5a6;
+@font-color3: #297465;
 
 @font-family1: 'Rokkitt', serif;
 @font-family2: 'Quicksand', sans-serif;
@@ -166,5 +167,80 @@ aside{
             font-size: 14px;
             line-height: 20px;
         }
+    }
+}
+
+
+.article-left{
+    margin-top: 50px;
+    width: 400px;
+    float: left;
+}
+.article-right{
+    margin-top: 50px;
+    width: 400px;
+    float: right;
+}
+.article {
+    position: relative;
+    width: 400px;
+    height: 300px;
+    margin-top: 50px;
+    .article-img{
+        width: 400px;
+        height: 300px;
+        background: url(/variety/img/figure-img.jpg);
+    }
+    .article-ft {
+        background: @colorpadrao;
+        color: #fff;
+        left: 0;
+        bottom: 0;
+        opacity: 0;
+        padding: 10px;
+        height: 70px;
+        position: absolute;
+        width: 380px;
+        a{
+            color: @font-color1;
+            font-size: 30px;
+            font-family: @font-family1;
+            text-decoration: none;
+            line-height: 40px;
+        }
+        h2{
+            color: @font-color3;
+            font-family: @font-family5;
+            font-size: 14px;
+        }
+    }
+    &:hover .article-ft {
+        opacity: 1;
+        pointer-events: auto;
+        -webkit-transform: translateY(0px);
+        -moz-transform: translateY(0px);
+        -ms-transform: translateY(0px);
+        -o-transform: translateY(0px);
+        transform: translateY(0px);
+    }
+    /* ------------------------- SEARCH ------------------------- */
+    .article-search {
+        background: url(/variety/img/article-search.jpg);
+        right: 26px;
+        top: 26px;
+        opacity: 0;
+        height: 40px;
+        position: absolute;
+        width: 40px;
+        box-shadow: 0px 0px 0px 6px rgba(26,188,156,0.3);
+    }
+    &:hover .article-search {
+        opacity: 1;
+        pointer-events: auto;
+        -webkit-transform: translateY(0px);
+        -moz-transform: translateY(0px);
+        -ms-transform: translateY(0px);
+        -o-transform: translateY(0px);
+        transform: translateY(0px);
     }
 }
