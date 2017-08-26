@@ -1,25 +1,26 @@
-@bodycolor: #fff;
-@colorpadrao: #1abc9c;
+@color1: #1abc9c;
+@color2: #cecece;
+@color3: #e4e8e8;
+@color4: #ffffff;
+@color5: #297465;
+@color6: #95a5a6;
 
-@font-color1: #fff;
-@font-color2: #95a5a6;
-@font-color3: #297465;
-
-@color1: #e4e8e8;
-
-@font-family1: 'Rokkitt', serif;
-@font-family2: 'Quicksand', sans-serif;
-@font-family3: 'Condensed';
-@font-family4: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
-@font-family5: Arial, Helvetica, sans-serif;
-
+@font1: 'Rokkitt', serif;
+@font2: 'Quicksand', sans-serif;
+@font3: 'Condensed';
+@font4: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+@font5:  Arial, Helvetica, sans-serif;
 @font-face {
     font-family: Condensed;
     src: url('/variety/font/MyriadProCondensed.ttf');
 }
 
+@size-form1: 370px;
+@size-form2: 770px;
+@size-form3: 250px;
+
 body {
-    background-color: @bodycolor;
+    background-color: @color4;
 }
 .conteudo{
     width: 960px;
@@ -54,8 +55,8 @@ header{
             text-align: center;
             margin-left: 100px;
             a{
-                color: @font-color1;
-                font-family: @font-family3;                        
+                color: @color4;
+                font-family: @font3;                        
                 font-size: 19px;
                 text-decoration: none;      
             }
@@ -72,12 +73,12 @@ header{
                     margin-right: 30px;
                     line-height: 30px;
                     a{
-                        color: @font-color1;
-                        font-family: @font-family3;                        
+                        color: @color4;
+                        font-family: @font3;                        
                         font-size: 19px;
                         text-decoration: none;    
                         &:hover{
-                            color: @colorpadrao;
+                            color: @color1;
                         }    
                         &:active{
                             text-decoration: underline;
@@ -92,30 +93,30 @@ header{
         height: 200px;
         margin: 120px auto;
         h1{
-            color: @font-color1;
+            color: @color4;
             font-size: 58px;
-            font-family: @font-family1;
+            font-family: @font1;
         }
         h2{
-            color: @font-color1;
+            color: @color4;
             font-size: 22px;
-            font-family: @font-family2;
+            font-family: @font2;
         }
         .div{
             width: 650px;
             height: 1px;
-            background-color: #fff;
+            background-color: @color4;
             margin: 10px auto;
         }
         #header-bt{
             margin: 185px auto;
             a{
                 font-size: 24px;
-                color: @font-color1;
+                color: @color4;
                 text-decoration: none;
                 text-transform: uppercase;
-                background: @colorpadrao;
-                font-family: @font-family1;
+                background: @color1;
+                font-family: @font1;
                 padding: 16px 40px 16px 40px;
                 box-shadow: 0px 0px 0px 8px rgba(26,188,156,0.3); 
             }
@@ -135,16 +136,16 @@ header{
             margin: 0 auto;
             text-align: center;
             h1{ 
-                color: @colorpadrao;
-                font-family: @font-family3;
+                color: @color1;
+                font-family: @font3;
                 font-size: 36px;
                 font-weight: 900;
                 line-height: 100px;
                 letter-spacing: 1px;
             }
             h2{
-                color: @font-color2;
-                font-family: @font-family5;
+                color: @color6;
+                font-family: @font5;
                 font-size: 18px;
                 line-height: 30px;
             }
@@ -159,7 +160,6 @@ header{
         .work-box{
             width: 250px;
             height: auto;
-            background-color: @font-color3;
             display: inline-block;
             text-align: justify;
             .work-ico{
@@ -168,16 +168,16 @@ header{
                 margin: 0 auto;
             }
             h1{
-                color: @colorpadrao;
-                font-family: @font-family4;
+                color: @color1;
+                font-family: @font4;
                 font-size: 18px;
                 font-weight: 600;
                 line-height: 60px;
                 text-align: center;
             }
             h2{
-                color: @font-color2;
-                font-family: @font-family5;
+                color: @color6;
+                font-family: @font5;
                 font-size: 14px;
                 line-height: 20px;
             }
@@ -212,7 +212,7 @@ header{
             background: url(/variety/img/figure-img.jpg);
         }
         .article-ft {
-            background: @colorpadrao;
+            background: @color1;
             color: #fff;
             left: 0;
             bottom: 0;
@@ -222,15 +222,15 @@ header{
             position: absolute;
             width: 380px;
             a{
-                color: @font-color1;
+                color: @color4;
                 font-size: 30px;
-                font-family: @font-family1;
+                font-family: @font1;
                 text-decoration: none;
                 line-height: 40px;
             }
             h2{
-                color: @font-color3;
-                font-family: @font-family5;
+                color: @color5;
+                font-family: @font5;
                 font-size: 14px;
             }
         }
@@ -272,35 +272,36 @@ header{
     text-align: center;
     a{
         font-size: 24px;
-        color: @font-color1;
+        color: @color4;
         text-decoration: none;
         text-transform: uppercase;
-        font-family: @font-family1;
+        font-family: @font1;
 
         width: 200px;
         padding: 16px 60px 16px 20px;
-        background: @colorpadrao url(/variety/img/arrow.png) no-repeat 168px 18px;
+        background: @color1 url(/variety/img/arrow.png) no-repeat 168px 18px;
     }
 }
 .div_form{
     width: 100%;
     height: 440px;
     padding: 50px 0 50px 0px;
-    color: @font-color2;
     form{
         width: 770px;
         margin: 0 auto;
         input[name="name"] {
-            font-family: @font-family1;
+            color: @color6;
             font-size: 30px;
-            color: @font-color2;
-            background-color: @color1;
-            border: 2px solid transparent;
-            padding: 12px 20px 12px 40px;
-            box-sizing: border-box;
-            width: 370px;
-            float: left;
+            font-family: @font1;
+
             outline: 0;
+            float: left;
+            width: @size-form1;
+            box-sizing: border-box;
+            background-color: @color3;
+            padding: 12px 20px 12px 40px;
+            border: 2px solid transparent;
+
             -webkit-transition: 0.5s ease-in;
             -moz-transition: 0.5s ease-in;
             -o-transition: 0.5s ease-in;
@@ -311,16 +312,18 @@ header{
             padding: 12px 20px 12px 20px;
         }
         input[name="email"] {
-            font-family: @font-family1;
+            color: @color6;
             font-size: 30px;
-            margin-left: 30px;
-            background-color: @color1;
-            border: 2px solid transparent;
-            padding: 12px 20px 12px 40px;
-            box-sizing: border-box;
-            width: 370px;
-            float: left;
+            font-family: @font1;
+
             outline: 0;
+            float: right;
+            width: @size-form1;
+            box-sizing: border-box;
+            background-color: @color3;
+            padding: 12px 20px 12px 40px;
+            border: 2px solid transparent;
+
             -webkit-transition: 0.5s ease-in;
             -moz-transition: 0.5s ease-in;
             -o-transition: 0.5s ease-in;
@@ -331,19 +334,20 @@ header{
             padding: 12px 20px 12px 20px;
         }
         input[name="mens"] {
-            font-family: @font-family1;
+            color: @color6;
             font-size: 30px;
-            color: @font-color2;
-            background-color: @color1;
-            border: 2px solid transparent;
-            background-repeat: no-repeat;
-            padding: 12px 20px 12px 40px;
-            box-sizing: border-box;
-            margin-top: 30px;
-            width: 770px;
-            height: 250px;
-            float: left;
+            font-family: @font1;
+
             outline: 0;
+            float: right;
+            margin-top: 30px;
+            width: @size-form2;
+            height: @size-form3;
+            box-sizing: border-box;
+            background-color: @color3;
+            padding: 12px 20px 12px 40px;
+            border: 2px solid transparent;
+
             -webkit-transition: 0.5s ease-in;
             -moz-transition: 0.5s ease-in;
             -o-transition: 0.5s ease-in;
@@ -358,35 +362,74 @@ header{
             border: 2px solid transparent;
             outline: 0;
             font-size: 24px;
-            color: @font-color1;
+            color: @color4;
             text-decoration: none;
             text-transform: uppercase;
-            font-family: @font-family1;
+            font-family: @font1;
             float: right;
             margin-top: 30px;
             width: 200px;
             padding: 16px 60px 16px 20px;
-            background: @colorpadrao url(/variety/img/arrow.png) no-repeat 168px 18px;
+            background: @color1 url(/variety/img/arrow.png) no-repeat 138px 18px;
             -webkit-transition: 0.5s ease-in;
             -moz-transition: 0.5s ease-in;
             -o-transition: 0.5s ease-in;
             transition: 0.5s ease-in;
         }
         input[type=submit]:hover {
-            background: @colorpadrao url(/variety/img/arrow.png) no-repeat 168px 18px;
+            background: @color1 url(/variety/img/arrow.png) no-repeat 148px 18px;
         }
         ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-        color: @font-color2;
+        color: @color6;
         }
         ::-moz-placeholder { /* Firefox 19+ */
-        color: @font-color2;
+        color: @color6;
         }
         :-ms-input-placeholder { /* IE 10+ */
-        color: @font-color2;
+        color: @color6;
         }
         :-moz-placeholder { /* Firefox 18- */
-        color: @font-color2;
+        color: @color6;
         }
     }
     /* FormulÃ¡rio */
+}
+
+footer{
+    width: 100%;
+    height: 240px;
+    margin-top: 30px;
+    background-color: @color1;
+    .div_footer_center{
+        width: 960px;
+        height: 100%;
+        margin: 0 auto;
+        background-color: @color3;
+        .div_footer_center_sociais{
+            width: 770px;
+            height: 100px;
+            margin: 0 auto;
+            .div_footer_center_sociais_area{
+                width: 770px;
+                height: 100px;
+                margin: -30px auto;
+                position: absolute;
+                display: flex;
+                justify-content: center;
+                #dribbble{
+                    width: 100px;
+                    height: 100px;
+                }
+                #twitter{
+                    width: 100px;
+                    height: 100px;
+                    margin: 0 235px 0 235px;
+                }
+                #facebook{
+                    width: 100px;
+                    height: 100px;
+                }
+            }
+        }
+    }
 }

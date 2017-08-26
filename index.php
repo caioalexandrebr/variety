@@ -127,7 +127,17 @@
     </div>
 </div>
 
-
+<footer>
+    <div class="div_footer_center">
+        <div class="div_footer_center_sociais">
+            <div class="div_footer_center_sociais_area">
+                <div id="dribbble"><a href="#"><img src="/variety/img/dribbble.png" height="100" width="100"></a></div>
+                <div id="twitter"><a href="#"><img src="/variety/img/twitter.png" height="100" width="100"></a></div>
+                <div id="facebook"><a href="#"><img src="/variety/img/facebook.png" height="100" width="100"></a></div>
+            </div>
+        </div>
+    </div>
+</footer>
 
 <script>
 $('div.bgParallax').each(function(){

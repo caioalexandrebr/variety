@@ -90,7 +90,7 @@ header .header-int h2 {
 header .header-int .div {
   width: 650px;
   height: 1px;
-  background-color: #fff;
+  background-color: #ffffff;
   margin: 10px auto;
 }
 header .header-int #header-bt {
@@ -138,7 +138,6 @@ header .header-int #header-bt a {
 .div_work aside .work-box {
   width: 250px;
   height: auto;
-  background-color: #297465;
   display: inline-block;
   text-align: justify;
 }
@@ -262,7 +261,6 @@ header .header-int #header-bt a {
   width: 100%;
   height: 440px;
   padding: 50px 0 50px 0px;
-  color: #95a5a6;
   /* FormulÃ¡rio */
 }
 .div_form form {
@@ -270,16 +268,16 @@ header .header-int #header-bt a {
   margin: 0 auto;
 }
 .div_form form input[name="name"] {
-  font-family: 'Rokkitt', serif;
-  font-size: 30px;
   color: #95a5a6;
-  background-color: #e4e8e8;
-  border: 2px solid transparent;
-  padding: 12px 20px 12px 40px;
-  box-sizing: border-box;
-  width: 370px;
-  float: left;
+  font-size: 30px;
+  font-family: 'Rokkitt', serif;
   outline: 0;
+  float: left;
+  width: 370px;
+  box-sizing: border-box;
+  background-color: #e4e8e8;
+  padding: 12px 20px 12px 40px;
+  border: 2px solid transparent;
   -webkit-transition: 0.5s ease-in;
   -moz-transition: 0.5s ease-in;
   -o-transition: 0.5s ease-in;
@@ -290,16 +288,16 @@ header .header-int #header-bt a {
   padding: 12px 20px 12px 20px;
 }
 .div_form form input[name="email"] {
-  font-family: 'Rokkitt', serif;
+  color: #95a5a6;
   font-size: 30px;
-  margin-left: 30px;
-  background-color: #e4e8e8;
-  border: 2px solid transparent;
-  padding: 12px 20px 12px 40px;
-  box-sizing: border-box;
-  width: 370px;
-  float: left;
+  font-family: 'Rokkitt', serif;
   outline: 0;
+  float: right;
+  width: 370px;
+  box-sizing: border-box;
+  background-color: #e4e8e8;
+  padding: 12px 20px 12px 40px;
+  border: 2px solid transparent;
   -webkit-transition: 0.5s ease-in;
   -moz-transition: 0.5s ease-in;
   -o-transition: 0.5s ease-in;
@@ -310,19 +308,18 @@ header .header-int #header-bt a {
   padding: 12px 20px 12px 20px;
 }
 .div_form form input[name="mens"] {
-  font-family: 'Rokkitt', serif;
-  font-size: 30px;
   color: #95a5a6;
-  background-color: #e4e8e8;
-  border: 2px solid transparent;
-  background-repeat: no-repeat;
-  padding: 12px 20px 12px 40px;
-  box-sizing: border-box;
+  font-size: 30px;
+  font-family: 'Rokkitt', serif;
+  outline: 0;
+  float: right;
   margin-top: 30px;
   width: 770px;
   height: 250px;
-  float: left;
-  outline: 0;
+  box-sizing: border-box;
+  background-color: #e4e8e8;
+  padding: 12px 20px 12px 40px;
+  border: 2px solid transparent;
   -webkit-transition: 0.5s ease-in;
   -moz-transition: 0.5s ease-in;
   -o-transition: 0.5s ease-in;
@@ -345,14 +342,14 @@ header .header-int #header-bt a {
   margin-top: 30px;
   width: 200px;
   padding: 16px 60px 16px 20px;
-  background: #1abc9c url(/variety/img/arrow.png) no-repeat 168px 18px;
+  background: #1abc9c url(/variety/img/arrow.png) no-repeat 138px 18px;
   -webkit-transition: 0.5s ease-in;
   -moz-transition: 0.5s ease-in;
   -o-transition: 0.5s ease-in;
   transition: 0.5s ease-in;
 }
 .div_form form input[type=submit]:hover {
-  background: #1abc9c url(/variety/img/arrow.png) no-repeat 168px 18px;
+  background: #1abc9c url(/variety/img/arrow.png) no-repeat 148px 18px;
 }
 .div_form form ::-webkit-input-placeholder {
   /* Chrome/Opera/Safari */
@@ -369,4 +366,42 @@ header .header-int #header-bt a {
 .div_form form :-moz-placeholder {
   /* Firefox 18- */
   color: #95a5a6;
+}
+footer {
+  width: 100%;
+  height: 240px;
+  margin-top: 30px;
+  background-color: #1abc9c;
+}
+footer .div_footer_center {
+  width: 960px;
+  height: 100%;
+  margin: 0 auto;
+  background-color: #e4e8e8;
+}
+footer .div_footer_center .div_footer_center_sociais {
+  width: 770px;
+  height: 100px;
+  margin: 0 auto;
+}
+footer .div_footer_center .div_footer_center_sociais .div_footer_center_sociais_area {
+  width: 770px;
+  height: 100px;
+  margin: -30px auto;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+}
+footer .div_footer_center .div_footer_center_sociais .div_footer_center_sociais_area #dribbble {
+  width: 100px;
+  height: 100px;
+}
+footer .div_footer_center .div_footer_center_sociais .div_footer_center_sociais_area #twitter {
+  width: 100px;
+  height: 100px;
+  margin: 0 235px 0 235px;
+}
+footer .div_footer_center .div_footer_center_sociais .div_footer_center_sociais_area #facebook {
+  width: 100px;
+  height: 100px;
 }
