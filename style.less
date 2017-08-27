@@ -283,12 +283,18 @@ header{
     }
 }
 .div_form{
+    color: @color1;
+    font-size: 60px;
+    text-align: center;
+    font-family: @font1;
+
     width: 100%;
-    height: 440px;
+    height: 500px;
+    margin-top: 50px;
     padding: 50px 0 50px 0px;
     form{
         width: 770px;
-        margin: 0 auto;
+        margin: 50px auto;
         input[name="name"] {
             color: @color6;
             font-size: 30px;
@@ -398,13 +404,12 @@ header{
 footer{
     width: 100%;
     height: 240px;
-    margin-top: 30px;
+    margin-top: 80px;
     background-color: @color1;
     .div_footer_center{
         width: 960px;
         height: 100%;
         margin: 0 auto;
-        background-color: @color3;
         .div_footer_center_sociais{
             width: 770px;
             height: 100px;
@@ -429,6 +434,16 @@ footer{
                     width: 100px;
                     height: 100px;
                 }
+            }
+        }
+        .footer_autor{
+            color: @color4;
+            font-size: 30px;
+            font-family: @font1;
+            line-height: 100px;
+            a{  
+                color: @color4;
+                text-decoration: none;
             }
         }
     }

@@ -118,6 +118,7 @@
     <div class="div_article_viewmore"><a href="#">View More</a></div>
 
     <div class="div_form">
+        Get in touch!
         <form name="form" method="post" action="sentsuccessfully.html" onSubmit="return validacao();">
             <input type="text" name="name" placeholder="Nome*" autocomplete="off" required x-moz-errormessage="Preencha o seu nome.">
             <input type="email" name="email" placeholder="E-mail*" autocomplete="off" pattern="[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?" required>
@@ -136,6 +137,7 @@
                 <div id="facebook"><a href="#"><img src="/variety/img/facebook.png" height="100" width="100"></a></div>
             </div>
         </div>
+        <div class="footer_autor">© Caio Alexandre - <a href="https://github.com/caioalexandrebr" alt="GitHub">GitHub</a> - <a href="https://www.linkedin.com/in/caioalexandrebr/" alt="Linkedin">Linkedin</a></div>
     </div>
 </footer>
 

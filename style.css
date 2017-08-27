@@ -258,14 +258,19 @@ header .header-int #header-bt a {
   background: #1abc9c url(/variety/img/arrow.png) no-repeat 168px 18px;
 }
 .div_form {
+  color: #1abc9c;
+  font-size: 60px;
+  text-align: center;
+  font-family: 'Rokkitt', serif;
   width: 100%;
-  height: 440px;
+  height: 500px;
+  margin-top: 50px;
   padding: 50px 0 50px 0px;
   /* FormulÃ¡rio */
 }
 .div_form form {
   width: 770px;
-  margin: 0 auto;
+  margin: 50px auto;
 }
 .div_form form input[name="name"] {
   color: #95a5a6;
@@ -370,14 +375,13 @@ header .header-int #header-bt a {
 footer {
   width: 100%;
   height: 240px;
-  margin-top: 30px;
+  margin-top: 80px;
   background-color: #1abc9c;
 }
 footer .div_footer_center {
   width: 960px;
   height: 100%;
   margin: 0 auto;
-  background-color: #e4e8e8;
 }
 footer .div_footer_center .div_footer_center_sociais {
   width: 770px;
@@ -404,4 +408,14 @@ footer .div_footer_center .div_footer_center_sociais .div_footer_center_sociais_
 footer .div_footer_center .div_footer_center_sociais .div_footer_center_sociais_area #facebook {
   width: 100px;
   height: 100px;
+}
+footer .div_footer_center .footer_autor {
+  color: #ffffff;
+  font-size: 30px;
+  font-family: 'Rokkitt', serif;
+  line-height: 100px;
+}
+footer .div_footer_center .footer_autor a {
+  color: #ffffff;
+  text-decoration: none;
 }
