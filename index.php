@@ -12,6 +12,14 @@
 </head>
 <body>
 
+<div class="div_version">
+    <div class="div_version_center">
+        <a href="#" class="turquoise">Turquoise</a>
+        <a href="#" class="red">Red</a>
+        <a href="#" class="purple">Purple</a>
+    </div>
+</div>
+
 <header class="bgParallax" data-speed="10">
     <nav>
         <div class="bt-logo">
@@ -41,7 +49,7 @@
 
     <div class="div_introduction">
         <aside>
-            <div class="autor">
+            <div class="div_introduction_autor">
                 <h1>CAIO ALEXANDRE.</h1>
                 <h2>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</h2>
             </div>
@@ -50,25 +58,25 @@
 
     <div class="div_work">
         <aside>
-            <div class="work-box">
-                <div class="work-ico">
-                    <img src="/variety/img/work-ico1.jpg" height="68" width="68">
+            <div class="div_work_box">
+                <div class="div_work_box_ico">
+                    <img src="/variety/img/turquoise/work-ico1.jpg" height="68" width="68">
                 </div>
                 <h1>Sketching is fun</h1>
                 <h2>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren.</h2>
             </div>
 
-            <div class="work-box" style="margin-left: 100px;">
-                <div class="work-ico">
-                    <img src="/variety/img/work-ico2.jpg" height="68" width="68">
+            <div class="div_work_box" style="margin-left: 100px;">
+                <div class="div_work_box_ico">
+                    <img src="/variety/img/turquoise/work-ico2.jpg" height="68" width="68">
                 </div>
                 <h1>Design afterwards</h1>
                 <h2>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren.</h2>
             </div>
 
-            <div class="work-box" style="float: right;">
-                <div class="work-ico">
-                    <img src="/variety/img/work-ico3.jpg" height="68" width="68">
+            <div class="div_work_box" style="float: right;">
+                <div class="div_work_box_ico">
+                    <img src="/variety/img/turquoise/work-ico3.jpg" height="68" width="68">
                 </div>
                 <h1>Finalize</h1>
                 <h2>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren.</h2>
@@ -78,47 +86,47 @@
 
     <div class="div_article">
         <div class="div_article_left">
-            <div class="article">
+            <article>
                 <a href="#" title="Lorem ipsum dolor sit" class="article-search"></a>
                 <div class="article-ft">
                     <a href="#" title="Lorem ipsum dolor sit" >Lorem ipsum dolor sit</a>
                     <h2>amet consetetur sadipscing elitr</h2>
                 </div>
-                <div class="article-img"></div>
-            </div>
-            <div class="article">
+                <div class="article-img"><img src="/variety/img/turquoise/figure-img1.jpg"></div>
+            </article>
+            <article>
                 <a href="#" title="Lorem ipsum dolor sit" class="article-search"></a>
                 <div class="article-ft">
                     <a href="#" title="Lorem ipsum dolor sit" >Lorem ipsum dolor sit</a>
                     <h2>amet consetetur sadipscing elitr</h2>
                 </div>
-                <div class="article-img"></div>
-            </div>
+                <div class="article-img"><img src="/variety/img/turquoise/figure-img2.jpg"></div>
+            </article>
         </div>
         <div class="div_article_right">
-            <div class="article">
+            <article>
                 <a href="#" title="Lorem ipsum dolor sit" class="article-search"></a>
                 <div class="article-ft">
                     <a href="#" title="Lorem ipsum dolor sit" >Lorem ipsum dolor sit</a>
                     <h2>amet consetetur sadipscing elitr</h2>
                 </div>
-                <div class="article-img"></div>
-            </div>
-            <div class="article">
+                <div class="article-img"><img src="/variety/img/turquoise/figure-img3.jpg"></div>
+            </article>
+            <article>
                 <a href="#" title="Lorem ipsum dolor sit" class="article-search"></a>
                 <div class="article-ft">
                     <a href="#" title="Lorem ipsum dolor sit" >Lorem ipsum dolor sit</a>
                     <h2>amet consetetur sadipscing elitr</h2>
                 </div>
-                <div class="article-img"></div>
-            </div>
+                <div class="article-img"><img src="/variety/img/turquoise/figure-img4.jpg"></div>
+            </article>
         </div>
     </div>
 
     <div class="div_article_viewmore"><a href="#">View More</a></div>
 
     <div class="div_form">
-        Get in touch!
+        <h1>Get in touch!</h1>
         <form name="form" method="post" action="sentsuccessfully.html" onSubmit="return validacao();">
             <input type="text" name="name" placeholder="Nome*" autocomplete="off" required x-moz-errormessage="Preencha o seu nome.">
             <input type="email" name="email" placeholder="E-mail*" autocomplete="off" pattern="[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?" required>
@@ -132,9 +140,9 @@
     <div class="div_footer_center">
         <div class="div_footer_center_sociais">
             <div class="div_footer_center_sociais_area">
-                <div id="dribbble"><a href="#"><img src="/variety/img/dribbble.png" height="100" width="100"></a></div>
-                <div id="twitter"><a href="#"><img src="/variety/img/twitter.png" height="100" width="100"></a></div>
-                <div id="facebook"><a href="#"><img src="/variety/img/facebook.png" height="100" width="100"></a></div>
+                <div id="dribbble"><a href="#"><img src="/variety/img/turquoise/dribbble.png" height="100" width="100"></a></div>
+                <div id="twitter"><a href="#"><img src="/variety/img/turquoise/twitter.png" height="100" width="100"></a></div>
+                <div id="facebook"><a href="#"><img src="/variety/img/turquoise/facebook.png" height="100" width="100"></a></div>
             </div>
         </div>
         <div class="footer_autor">© Caio Alexandre - <a href="https://github.com/caioalexandrebr" alt="GitHub">GitHub</a> - <a href="https://www.linkedin.com/in/caioalexandrebr/" alt="Linkedin">Linkedin</a></div>

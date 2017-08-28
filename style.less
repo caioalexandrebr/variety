@@ -5,6 +5,10 @@
 @color5: #297465;
 @color6: #95a5a6;
 
+@base-url: "/variety/img/turquoise";
+
+@box-shadow: 0px 0px 0px 6px rgba(26,188,156,0.3);
+
 @font1: 'Rokkitt', serif;
 @font2: 'Quicksand', sans-serif;
 @font3: 'Condensed';
@@ -22,24 +26,58 @@
 body {
     background-color: @color4;
 }
-.conteudo{
+
+.div_version{
+    width: 100%;
+    height: 100px;
+    background-color: #212121;
+    .div_version_center{
+        width: 442px;
+        margin: 0 auto;
+        .turquoise{
+            background: #1abc9c;
+            padding: 10px 20px 10px 20px;
+        }
+        .red{
+            margin: 0 50px 0 50px;
+            background: #E74B3A;
+            padding: 10px 20px 10px 20px;
+        }
+        .purple{
+            background: #9b59b6;
+            padding: 10px 20px 10px 20px;
+        }
+        a{
+            color: @color4;
+            font-size: 20px;
+            line-height: 100px;
+            letter-spacing: 4px;
+            font-family: @font3;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+    }
+}
+/* Fim Menu-Version */
+
+.conteudo {
     width: 960px;
     margin: 0 auto;
-}
-.bgParallax {
-    margin: 0 auto;
+  }
+  .bgParallax {
     width: 100%;
+    margin: 0 auto;
+    min-height: 100%;
     max-width: 1920px;
     position: relative;
-    min-height: 100%;
-    background-position: 50% 0;
     background-repeat: repeat;
+    background-position: 50% 0;
     background-attachment: fixed;
-}
-header{
+  }
+  header {
     height: 500px;
     background-color: #e5c6c1;
-    background: url(/variety/img/header-bg.jpg) fixed no-repeat;
+    background: url('@{base-url}/header-bg.jpg') fixed no-repeat;
     -webkit-background-size: cover;
     -o-background-size: cover;
     -moz-background-size: cover;
@@ -48,16 +86,16 @@ header{
         height: 30px;
         padding-top: 50px;
         .bt-logo{
+            float: left;
             width: 100px;
             height: 30px;
-            float: left;
             line-height: 30px;
             text-align: center;
             margin-left: 100px;
             a{
                 color: @color4;
-                font-family: @font3;                        
                 font-size: 19px;
+                font-family: @font3;                        
                 text-decoration: none;      
             }
         }
@@ -70,12 +108,12 @@ header{
                 list-style: none;
                 ul{
                     float: left;
-                    margin-right: 30px;
                     line-height: 30px;
+                    margin-right: 30px;
                     a{
                         color: @color4;
-                        font-family: @font3;                        
                         font-size: 19px;
+                        font-family: @font3;                        
                         text-decoration: none;    
                         &:hover{
                             color: @color1;
@@ -89,8 +127,8 @@ header{
         }
     }
     .header-int{
-        text-align: center;
         height: 200px;
+        text-align: center;
         margin: 120px auto;
         h1{
             color: @color4;
@@ -103,92 +141,95 @@ header{
             font-family: @font2;
         }
         .div{
-            width: 650px;
             height: 1px;
-            background-color: @color4;
+            width: 650px;
             margin: 10px auto;
+            background-color: @color4;
         }
         #header-bt{
             margin: 185px auto;
             a{
-                font-size: 24px;
                 color: @color4;
-                text-decoration: none;
-                text-transform: uppercase;
+                font-size: 24px;
                 background: @color1;
                 font-family: @font1;
+                text-decoration: none;
+                box-shadow: @box-shadow; 
+                text-transform: uppercase;
                 padding: 16px 40px 16px 40px;
-                box-shadow: 0px 0px 0px 8px rgba(26,188,156,0.3); 
             }
         }
     }
 }
-
-
+/* Fim Header */
 
 .div_introduction{
     width: 100%;
     height: auto;
     padding: 50px 0 50px 0px;
     aside{
-        .autor{
+        .div_introduction_autor{
             width: 770px;
             margin: 0 auto;
             text-align: center;
             h1{ 
                 color: @color1;
-                font-family: @font3;
                 font-size: 36px;
                 font-weight: 900;
                 line-height: 100px;
+                font-family: @font3;
                 letter-spacing: 1px;
             }
             h2{
                 color: @color6;
-                font-family: @font5;
                 font-size: 18px;
                 line-height: 30px;
+                font-family: @font5;
             }
         }
     }
 }
+/* Fim Introduction */
+
 .div_work{
     width: 100%;
     height: auto;
     padding: 50px 0 50px 0px;
     aside{
-        .work-box{
+        .div_work_box{
             width: 250px;
             height: auto;
-            display: inline-block;
             text-align: justify;
-            .work-ico{
+            display: inline-block;
+            .div_work_box_ico{
                 width: 68px;
                 height: 68px;
                 margin: 0 auto;
             }
             h1{
                 color: @color1;
-                font-family: @font4;
                 font-size: 18px;
                 font-weight: 600;
                 line-height: 60px;
                 text-align: center;
+                font-family: @font4;
             }
             h2{
                 color: @color6;
-                font-family: @font5;
                 font-size: 14px;
                 line-height: 20px;
+                font-family: @font5;
             }
         }
     }
 }
+/* Fim Work-Area */
+
 .div_article{
     width: 100%;
     height: auto;
-    padding: 0 0 50px 0px;
     display: table;
+    padding: 0 0 50px 0px;
     .div_article_left{
         width: 400px;
         float: left;
@@ -200,38 +241,45 @@ header{
     .right{
         float: right;
     }
-    .article {
-        position: relative;
+    article {
         width: 400px;
         height: 300px;
         margin-top: 50px;
+        position: relative;
         display: inline-block;
+        &:hover .article-img img{
+            opacity: 1;
+        }
         .article-img{
             width: 400px;
             height: 300px;
-            background: url(/variety/img/figure-img.jpg);
+            background-color: @color4;
+            img{
+                opacity: 0.5;
+            }
         }
         .article-ft {
-            background: @color1;
-            color: #fff;
             left: 0;
             bottom: 0;
             opacity: 0;
-            padding: 10px;
-            height: 70px;
-            position: absolute;
             width: 380px;
+            height: 70px;
+            padding: 10px;
+            color: @color4;
+            position: absolute;
+            background: @color1;
+
             a{
                 color: @color4;
                 font-size: 30px;
+                line-height: 40px;
                 font-family: @font1;
                 text-decoration: none;
-                line-height: 40px;
             }
             h2{
                 color: @color5;
-                font-family: @font5;
                 font-size: 14px;
+                font-family: @font5;
             }
         }
         &:hover .article-ft {
@@ -245,14 +293,14 @@ header{
         }
         /* ------------------------- SEARCH ------------------------- */
         .article-search {
-            background: url(/variety/img/article-search.jpg);
-            right: 26px;
             top: 26px;
             opacity: 0;
+            right: 26px;
+            width: 40px;
             height: 40px;
             position: absolute;
-            width: 40px;
-            box-shadow: 0px 0px 0px 6px rgba(26,188,156,0.3);
+            box-shadow: @box-shadow; 
+            background: url('@{base-url}/article-search.jpg');
         }
         &:hover .article-search {
             opacity: 1;
@@ -271,27 +319,38 @@ header{
     padding-top: 18px;
     text-align: center;
     a{
-        font-size: 24px;
+        width: 200px;
         color: @color4;
+        font-size: 24px;
+        font-family: @font1;
         text-decoration: none;
         text-transform: uppercase;
-        font-family: @font1;
-
-        width: 200px;
         padding: 16px 60px 16px 20px;
-        background: @color1 url(/variety/img/arrow.png) no-repeat 168px 18px;
+        background: @color1 url('@{base-url}/arrow.png') no-repeat 168px 18px;
+
+        -webkit-transition: 0.5s ease-in;
+        -moz-transition: 0.5s ease-in;
+        -o-transition: 0.5s ease-in;
+        transition: 0.5s ease-in;
+        &:hover{
+            background: @color5 url('@{base-url}/arrow.png') no-repeat 168px 18px;
+        }
     }
 }
-.div_form{
-    color: @color1;
-    font-size: 60px;
-    text-align: center;
-    font-family: @font1;
+/* Fim Article */
 
+.div_form{
     width: 100%;
     height: 500px;
     margin-top: 50px;
     padding: 50px 0 50px 0px;
+
+    h1{
+        color: @color1;
+        font-size: 60px;
+        text-align: center;
+        font-family: @font1;
+    }
     form{
         width: 770px;
         margin: 50px auto;
@@ -299,7 +358,6 @@ header{
             color: @color6;
             font-size: 30px;
             font-family: @font1;
-
             outline: 0;
             float: left;
             width: @size-form1;
@@ -307,7 +365,6 @@ header{
             background-color: @color3;
             padding: 12px 20px 12px 40px;
             border: 2px solid transparent;
-
             -webkit-transition: 0.5s ease-in;
             -moz-transition: 0.5s ease-in;
             -o-transition: 0.5s ease-in;
@@ -321,7 +378,6 @@ header{
             color: @color6;
             font-size: 30px;
             font-family: @font1;
-
             outline: 0;
             float: right;
             width: @size-form1;
@@ -329,7 +385,6 @@ header{
             background-color: @color3;
             padding: 12px 20px 12px 40px;
             border: 2px solid transparent;
-
             -webkit-transition: 0.5s ease-in;
             -moz-transition: 0.5s ease-in;
             -o-transition: 0.5s ease-in;
@@ -343,7 +398,6 @@ header{
             color: @color6;
             font-size: 30px;
             font-family: @font1;
-
             outline: 0;
             float: right;
             margin-top: 30px;
@@ -353,7 +407,6 @@ header{
             background-color: @color3;
             padding: 12px 20px 12px 40px;
             border: 2px solid transparent;
-
             -webkit-transition: 0.5s ease-in;
             -moz-transition: 0.5s ease-in;
             -o-transition: 0.5s ease-in;
@@ -376,14 +429,14 @@ header{
             margin-top: 30px;
             width: 200px;
             padding: 16px 60px 16px 20px;
-            background: @color1 url(/variety/img/arrow.png) no-repeat 138px 18px;
+            background: @color1 url('@{base-url}/arrow.png') no-repeat 138px 18px;
             -webkit-transition: 0.5s ease-in;
             -moz-transition: 0.5s ease-in;
             -o-transition: 0.5s ease-in;
             transition: 0.5s ease-in;
         }
         input[type=submit]:hover {
-            background: @color1 url(/variety/img/arrow.png) no-repeat 148px 18px;
+            background: @color5 url('@{base-url}/arrow.png') no-repeat 138px 18px;
         }
         ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
         color: @color6;
@@ -398,8 +451,8 @@ header{
         color: @color6;
         }
     }
-    /* FormulÃ¡rio */
 }
+/* Fim Formulário */
 
 footer{
     width: 100%;
@@ -417,9 +470,9 @@ footer{
             .div_footer_center_sociais_area{
                 width: 770px;
                 height: 100px;
+                display: flex;
                 margin: -30px auto;
                 position: absolute;
-                display: flex;
                 justify-content: center;
                 #dribbble{
                     width: 100px;
@@ -439,8 +492,8 @@ footer{
         .footer_autor{
             color: @color4;
             font-size: 30px;
-            font-family: @font1;
             line-height: 100px;
+            font-family: @font1;
             a{  
                 color: @color4;
                 text-decoration: none;
