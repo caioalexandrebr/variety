@@ -81,7 +81,7 @@ body {
 header {
   height: 500px;
   background-color: #e5c6c1;
-  background: url('/variety/img/turquoise/header-bg.jpg') fixed no-repeat;
+  background: url('/variety/img/red/header-bg.jpg') fixed no-repeat;
   -webkit-background-size: cover;
   -o-background-size: cover;
   -moz-background-size: cover;
@@ -126,7 +126,7 @@ header nav .menu li ul a {
   text-decoration: none;
 }
 header nav .menu li ul a:hover {
-  color: #1abc9c;
+  color: #e74c3c;
 }
 header nav .menu li ul a:active {
   text-decoration: underline;
@@ -158,10 +158,10 @@ header .header-int #header-bt {
 header .header-int #header-bt a {
   color: #ffffff;
   font-size: 24px;
-  background: #1abc9c;
+  background: #e74c3c;
   font-family: 'Rokkitt', serif;
   text-decoration: none;
-  box-shadow: 0px 0px 0px 6px rgba(26, 188, 156, 0.3);
+  box-shadow: 0px 0px 0px 6px rgba(231, 76, 60, 0.3);
   text-transform: uppercase;
   padding: 16px 40px 16px 40px;
 }
@@ -177,7 +177,7 @@ header .header-int #header-bt a {
   text-align: center;
 }
 .div_introduction aside .div_introduction_autor h1 {
-  color: #1abc9c;
+  color: #e74c3c;
   font-size: 36px;
   font-weight: 900;
   line-height: 100px;
@@ -208,7 +208,7 @@ header .header-int #header-bt a {
   margin: 0 auto;
 }
 .div_work aside .div_work_box h1 {
-  color: #1abc9c;
+  color: #e74c3c;
   font-size: 18px;
   font-weight: 600;
   line-height: 60px;
@@ -267,7 +267,7 @@ header .header-int #header-bt a {
   padding: 10px;
   color: #ffffff;
   position: absolute;
-  background: #1abc9c;
+  background: #e74c3c;
 }
 .div_article article .article-ft a {
   color: #ffffff;
@@ -277,7 +277,7 @@ header .header-int #header-bt a {
   text-decoration: none;
 }
 .div_article article .article-ft h2 {
-  color: #297465;
+  color: #9d3b31;
   font-size: 14px;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -297,8 +297,8 @@ header .header-int #header-bt a {
   width: 40px;
   height: 40px;
   position: absolute;
-  box-shadow: 0px 0px 0px 6px rgba(26, 188, 156, 0.3);
-  background: url('/variety/img/turquoise/article-search.jpg');
+  box-shadow: 0px 0px 0px 6px rgba(231, 76, 60, 0.3);
+  background: url('/variety/img/red/article-search.jpg');
 }
 .div_article article:hover .article-search {
   opacity: 1;
@@ -323,14 +323,14 @@ header .header-int #header-bt a {
   text-decoration: none;
   text-transform: uppercase;
   padding: 16px 60px 16px 20px;
-  background: #1abc9c url('/variety/img/turquoise/arrow.png') no-repeat 168px 18px;
+  background: #e74c3c url('/variety/img/red/arrow.png') no-repeat 168px 18px;
   -webkit-transition: 0.5s ease-in;
   -moz-transition: 0.5s ease-in;
   -o-transition: 0.5s ease-in;
   transition: 0.5s ease-in;
 }
 .div_article_viewmore a:hover {
-  background: #297465 url('/variety/img/turquoise/arrow.png') no-repeat 168px 18px;
+  background: #9d3b31 url('/variety/img/red/arrow.png') no-repeat 168px 18px;
 }
 /* Fim Article */
 .div_form {
@@ -340,7 +340,7 @@ header .header-int #header-bt a {
   padding: 50px 0 50px 0px;
 }
 .div_form h1 {
-  color: #1abc9c;
+  color: #e74c3c;
   font-size: 60px;
   text-align: center;
   font-family: 'Rokkitt', serif;
@@ -424,14 +424,14 @@ header .header-int #header-bt a {
   margin-top: 30px;
   width: 200px;
   padding: 16px 60px 16px 20px;
-  background: #1abc9c url('/variety/img/turquoise/arrow.png') no-repeat 138px 18px;
+  background: #e74c3c url('/variety/img/red/arrow.png') no-repeat 138px 18px;
   -webkit-transition: 0.5s ease-in;
   -moz-transition: 0.5s ease-in;
   -o-transition: 0.5s ease-in;
   transition: 0.5s ease-in;
 }
 .div_form form input[type=submit]:hover {
-  background: #297465 url('/variety/img/turquoise/arrow.png') no-repeat 138px 18px;
+  background: #9d3b31 url('/variety/img/red/arrow.png') no-repeat 138px 18px;
 }
 .div_form form ::-webkit-input-placeholder {
   /* Chrome/Opera/Safari */
@@ -454,7 +454,7 @@ footer {
   width: 100%;
   height: 240px;
   margin-top: 80px;
-  background-color: #1abc9c;
+  background-color: #e74c3c;
 }
 footer .div_footer_center {
   width: 960px;
