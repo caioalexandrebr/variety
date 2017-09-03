@@ -1,8 +1,9 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-br" ng-app>
 <head>
     <meta charset="UTF-8">
     <title>Variety - Caio Alexandre</title>
+    <script src="lib/angular/angular.js"></script>
     <link rel="stylesheet" type="text/css" href="css/load.css">
     <link rel="stylesheet" type="text/css" href="css/style_purple.css">
     <link rel="stylesheet" type="text/css" href="css/style_red.css">
@@ -145,7 +146,6 @@
         <div class="footer_autor">© Caio Alexandre - <a href="https://github.com/caioalexandrebr" alt="GitHub">GitHub</a> - <a href="https://www.linkedin.comin/caioalexandrebr/" alt="Linkedin">Linkedin</a></div>
     </div>
 </footer>
-
 
 <script src="./bower_components/jquery/dist/jquery.js"></script>
 <script src="./js/changeColors.js"></script>
