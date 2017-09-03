@@ -43,11 +43,12 @@
     font-weight: 400;
     src: local('Quicksand Regular'), local('Quicksand-Regular'), url(https://fonts.gstatic.com/s/quicksand/v6/sKd0EMYPAh5PYCRKSryvW1tXRa8TVwTICgirnJhmVJw.woff2) format('woff2');
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
-  }
+}
 
 @size-form1: 370px;
 @size-form2: 770px;
 @size-form3: 250px;
+/* Fim Pre-Processador LESS */
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -67,7 +68,6 @@ table, caption, tbody, tfoot, thead, tr, th, td {
     font-family: inherit;
     vertical-align: baseline;
 }
-/* remember to define focus styles! */
 :focus {
     outline: 0;
 }
@@ -79,7 +79,6 @@ body {
 ol, ul {
     list-style: none;
 }
-/* tables still need 'cellspacing="0"' in the markup */
 table {
     border-collapse: separate;
     border-spacing: 0;
@@ -95,6 +94,7 @@ q:before, q:after {
 blockquote, q {
     quotes: "" "";
 }
+/* Fim Reset */
 
 .div_version{
     width: 100%;
@@ -330,7 +330,7 @@ blockquote, q {
 }
 /* Fim Work-Area */
 
-.div_article{
+main{
     width: 100%;
     height: auto;
     display: table;
@@ -385,7 +385,7 @@ blockquote, q {
             opacity: 0.5;
             background-image: url('@{base-url}/fourth-ficure.jpg');
         }
-        .article-ft {
+        .article-footer {
             left: 0;
             bottom: 0;
             opacity: 0;
@@ -409,7 +409,7 @@ blockquote, q {
                 font-family: @font5;
             }
         }
-        &:hover .article-ft {
+        &:hover .article-footer {
             opacity: 1;
             pointer-events: auto;
             -webkit-transform: translateY(0px);
@@ -418,7 +418,7 @@ blockquote, q {
             -o-transform: translateY(0px);
             transform: translateY(0px);
         }
-        /* ------------------------- SEARCH ------------------------- */
+        /* Fim Article Footer */
         .article-search {
             top: 26px;
             opacity: 0;

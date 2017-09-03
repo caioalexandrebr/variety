@@ -1,8 +1,8 @@
-<div class="div_article">
+    <main>
         <div class="div_article_left">
             <article>
                 <a href="#" title="Lorem ipsum dolor sit" class="article-search"></a>
-                <div class="article-ft">
+                <div class="article-footer">
                     <a href="#" title="Lorem ipsum dolor sit" >Lorem ipsum dolor sit</a>
                     <h2>amet consetetur sadipscing elitr</h2>
                 </div>
@@ -11,7 +11,7 @@
             </article>
             <article>
                 <a href="#" title="Lorem ipsum dolor sit" class="article-search"></a>
-                <div class="article-ft">
+                <div class="article-footer">
                     <a href="#" title="Lorem ipsum dolor sit" >Lorem ipsum dolor sit</a>
                     <h2>amet consetetur sadipscing elitr</h2>
                 </div>
@@ -22,7 +22,7 @@
         <div class="div_article_right">
             <article>
                 <a href="#" title="Lorem ipsum dolor sit" class="article-search"></a>
-                <div class="article-ft">
+                <div class="article-footer">
                     <a href="#" title="Lorem ipsum dolor sit" >Lorem ipsum dolor sit</a>
                     <h2>amet consetetur sadipscing elitr</h2>
                 </div>
@@ -31,7 +31,7 @@
             </article>
             <article>
                 <a href="#" title="Lorem ipsum dolor sit" class="article-search"></a>
-                <div class="article-ft">
+                <div class="article-footer">
                     <a href="#" title="Lorem ipsum dolor sit" >Lorem ipsum dolor sit</a>
                     <h2>amet consetetur sadipscing elitr</h2>
                 </div>
@@ -39,6 +39,6 @@
             <!-- <div class="article-img"><img src="/figure.jpg"></div> -->
             </article>
         </div>
-    </div>
+    </main>
 
     <div class="div_article_viewmore"><a href="#">View More</a></div>
