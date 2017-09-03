@@ -71,6 +71,8 @@
 <div ng-include="'footer.php'"></div>
 
 <script src="./bower_components/jquery/dist/jquery.js"></script>
+<script src="lib/angular/angular.js"></script>
+<script src="./lib/jquery/dist/jquery.js"></script>
 <script src="./js/changeColors.js"></script>
 <script>
     $('div.bgParallax').each(function(){
