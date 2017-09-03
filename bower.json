@@ -1,0 +1,20 @@
+{
+  "name": "variety",
+  "homepage": "https://github.com/caioalexandrebr/Variety",
+  "authors": [
+    "caioalexandre"
+  ],
+  "description": "project front-end",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.2.1"
+  }
+}

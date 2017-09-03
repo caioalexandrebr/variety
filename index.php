@@ -4,19 +4,19 @@
     <meta charset="UTF-8">
     <title>Variety Turquoise - Caio Alexandre</title>
     <link rel="stylesheet" type="text/css" href="reset.css">
+    <link rel="stylesheet" type="text/css" href="style_purple.css">
+    <link rel="stylesheet" type="text/css" href="style_red.css">
     <link rel="stylesheet" type="text/css" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Rokkitt" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet"> 
-    <!-- Javascript validacao formulário -->
-    <script type="text/javascript" src="/variety/js/javascript.js"></script>
+
+ 
 </head>
 <body>
 
 <div class="div_version">
     <div class="div_version_center">
-        <a href="/variety/index.php" class="turquoise">Turquoise</a>
-        <a href="/variety/index_red.php" class="red">Red</a>
-        <a href="/variety/index_purple.php" class="purple">Purple</a>
+        <a href="#" class="seleciona-turquoise turquoise">Turquoise</a>
+        <a href="#" class="seleciona-red red">Red</a>
+        <a href="#" class="seleciona-purple purple">Purple</a>
     </div>
 </div>
 
@@ -59,25 +59,19 @@
     <div class="div_work">
         <aside>
             <div class="div_work_box">
-                <div class="div_work_box_ico">
-                    <img src="/variety/img/turquoise/work-ico1.jpg" height="68" width="68">
-                </div>
+                <div class="div_work_box_ico sketching"></div>
                 <h1>Sketching is fun</h1>
                 <h2>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren.</h2>
             </div>
 
             <div class="div_work_box" style="margin-left: 100px;">
-                <div class="div_work_box_ico">
-                    <img src="/variety/img/turquoise/work-ico2.jpg" height="68" width="68">
-                </div>
+                <div class="div_work_box_ico design"></div>
                 <h1>Design afterwards</h1>
                 <h2>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren.</h2>
             </div>
 
             <div class="div_work_box" style="float: right;">
-                <div class="div_work_box_ico">
-                    <img src="/variety/img/turquoise/work-ico3.jpg" height="68" width="68">
-                </div>
+                <div class="div_work_box_ico finalize"></div>
                 <h1>Finalize</h1>
                 <h2>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren.</h2>
             </div>
@@ -92,7 +86,8 @@
                     <a href="#" title="Lorem ipsum dolor sit" >Lorem ipsum dolor sit</a>
                     <h2>amet consetetur sadipscing elitr</h2>
                 </div>
-                <div class="article-img"><img src="/variety/img/turquoise/figure-img1.jpg"></div>
+                <div class="article-img first-ficure"></div>
+            <!-- <div class="article-img"><img src="/figure-img2.jpg"></div> -->
             </article>
             <article>
                 <a href="#" title="Lorem ipsum dolor sit" class="article-search"></a>
@@ -100,7 +95,8 @@
                     <a href="#" title="Lorem ipsum dolor sit" >Lorem ipsum dolor sit</a>
                     <h2>amet consetetur sadipscing elitr</h2>
                 </div>
-                <div class="article-img"><img src="/variety/img/turquoise/figure-img2.jpg"></div>
+                <div class="article-img second-ficure"></div>
+            <!-- <div class="article-img"><img src="/figure-img2.jpg"></div> -->
             </article>
         </div>
         <div class="div_article_right">
@@ -110,7 +106,8 @@
                     <a href="#" title="Lorem ipsum dolor sit" >Lorem ipsum dolor sit</a>
                     <h2>amet consetetur sadipscing elitr</h2>
                 </div>
-                <div class="article-img"><img src="/variety/img/turquoise/figure-img3.jpg"></div>
+                <div class="article-img third-ficure"></div>
+            <!-- <div class="article-img"><img src="/figure-img2.jpg"></div> -->
             </article>
             <article>
                 <a href="#" title="Lorem ipsum dolor sit" class="article-search"></a>
@@ -118,7 +115,8 @@
                     <a href="#" title="Lorem ipsum dolor sit" >Lorem ipsum dolor sit</a>
                     <h2>amet consetetur sadipscing elitr</h2>
                 </div>
-                <div class="article-img"><img src="/variety/img/turquoise/figure-img4.jpg"></div>
+                <div class="article-img fourth-ficure"></div>
+            <!-- <div class="article-img"><img src="/figure-img2.jpg"></div> -->
             </article>
         </div>
     </div>
@@ -140,14 +138,18 @@
     <div class="div_footer_center">
         <div class="div_footer_center_sociais">
             <div class="div_footer_center_sociais_area">
-                <div id="dribbble"><a href="#"><img src="/variety/img/turquoise/dribbble.png" height="100" width="100"></a></div>
-                <div id="twitter"><a href="#"><img src="/variety/img/turquoise/twitter.png" height="100" width="100"></a></div>
-                <div id="facebook"><a href="#"><img src="/variety/img/turquoise/facebook.png" height="100" width="100"></a></div>
+                <div id="dribbble"><a href="#"><div class="dribbble"></div></a></div>
+                <div id="twitter"><a href="#"><div class="twitter"></div></a></div>
+                <div id="facebook"><a href="#"><div class="facebook"></div></a></div>
             </div>
         </div>
-        <div class="footer_autor">© Caio Alexandre - <a href="https://github.com/caioalexandrebr" alt="GitHub">GitHub</a> - <a href="https://www.linkedin.com/in/caioalexandrebr/" alt="Linkedin">Linkedin</a></div>
+        <div class="footer_autor">© Caio Alexandre - <a href="https://github.com/caioalexandrebr" alt="GitHub">GitHub</a> - <a href="https://www.linkedin.comin/caioalexandrebr/" alt="Linkedin">Linkedin</a></div>
     </div>
 </footer>
+
+
+<script src="./bower_components/jquery/dist/jquery.js"></script>
+<script src="./js/changeColors.js"></script>
 
 <script>
 $('div.bgParallax').each(function(){
