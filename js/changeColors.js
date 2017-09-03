@@ -1,15 +1,15 @@
 // change color button
     $(".seleciona-turquoise").on("click", function(e){
-        // e.preventDefault();
+         e.preventDefault();
         $("link").attr("href", "style.css");
     });
 
     $(".seleciona-red").on("click", function(e){
-        // e.preventDefault();
-        $("link").attr("href", "style_red.css");
+         e.preventDefault();
+        $("link").attr("href", "css/style_red.css");
     });
 
     $(".seleciona-purple").on("click", function(e){
-        // e.preventDefault();
-        $("link").attr("href", "style_purple.css");
+         e.preventDefault();
+        $("link").attr("href", "css/style_purple.css");
     });

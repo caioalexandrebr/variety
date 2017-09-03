@@ -3,12 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <title>Variety - Caio Alexandre</title>
-    <link rel="stylesheet" type="text/css" href="reset.css">
-    <link rel="stylesheet" type="text/css" href="style_purple.css">
-    <link rel="stylesheet" type="text/css" href="style_red.css">
+    <link rel="stylesheet" type="text/css" href="css/load.css">
+    <link rel="stylesheet" type="text/css" href="css/style_purple.css">
+    <link rel="stylesheet" type="text/css" href="css/style_red.css">
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
+<div class="se-pre-con"></div>
 
 <div class="div_version">
     <div class="div_version_center">
@@ -145,21 +146,25 @@
     </div>
 </footer>
 
+
 <script src="./bower_components/jquery/dist/jquery.js"></script>
 <script src="./js/changeColors.js"></script>
 <script>
-$('div.bgParallax').each(function(){
-    var $obj = $(this);
-
-    $(window).scroll(function() {
-        var yPos = -($(window).scrollTop() / $obj.data('speed')); 
-
-        var bgpos = '50% '+ yPos + 'px';
-
-        $obj.css('background-position', bgpos );
-
-    }); 
-});
+    $('div.bgParallax').each(function(){
+        var $obj = $(this);
+        $(window).scroll(function() {
+            var yPos = -($(window).scrollTop() / $obj.data('speed')); 
+            var bgpos = '50% '+ yPos + 'px';
+            $obj.css('background-position', bgpos );
+        }); 
+    });
+</script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
+<script>
+    $(window).load(function() {
+		$(".se-pre-con").fadeOut("slow");;
+	});
 </script>
 </body>
 </html>
