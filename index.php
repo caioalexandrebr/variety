@@ -2,13 +2,11 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <title>Variety Turquoise - Caio Alexandre</title>
+    <title>Variety - Caio Alexandre</title>
     <link rel="stylesheet" type="text/css" href="reset.css">
     <link rel="stylesheet" type="text/css" href="style_purple.css">
     <link rel="stylesheet" type="text/css" href="style_red.css">
     <link rel="stylesheet" type="text/css" href="style.css">
-
- 
 </head>
 <body>
 
@@ -87,7 +85,7 @@
                     <h2>amet consetetur sadipscing elitr</h2>
                 </div>
                 <div class="article-img first-ficure"></div>
-            <!-- <div class="article-img"><img src="/figure-img2.jpg"></div> -->
+            <!-- <div class="article-img"><img src="/figure.jpg"></div> -->
             </article>
             <article>
                 <a href="#" title="Lorem ipsum dolor sit" class="article-search"></a>
@@ -96,7 +94,7 @@
                     <h2>amet consetetur sadipscing elitr</h2>
                 </div>
                 <div class="article-img second-ficure"></div>
-            <!-- <div class="article-img"><img src="/figure-img2.jpg"></div> -->
+            <!-- <div class="article-img"><img src="/figure.jpg"></div> -->
             </article>
         </div>
         <div class="div_article_right">
@@ -107,7 +105,7 @@
                     <h2>amet consetetur sadipscing elitr</h2>
                 </div>
                 <div class="article-img third-ficure"></div>
-            <!-- <div class="article-img"><img src="/figure-img2.jpg"></div> -->
+            <!-- <div class="article-img"><img src="/figure.jpg"></div> -->
             </article>
             <article>
                 <a href="#" title="Lorem ipsum dolor sit" class="article-search"></a>
@@ -116,7 +114,7 @@
                     <h2>amet consetetur sadipscing elitr</h2>
                 </div>
                 <div class="article-img fourth-ficure"></div>
-            <!-- <div class="article-img"><img src="/figure-img2.jpg"></div> -->
+            <!-- <div class="article-img"><img src="/figure.jpg"></div> -->
             </article>
         </div>
     </div>
@@ -147,10 +145,8 @@
     </div>
 </footer>
 
-
 <script src="./bower_components/jquery/dist/jquery.js"></script>
 <script src="./js/changeColors.js"></script>
-
 <script>
 $('div.bgParallax').each(function(){
     var $obj = $(this);
