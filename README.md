@@ -15,4 +15,6 @@ We use for versioning. For the versions available, see the [tags on this reposit
 
 * **Caio Alexandre** - *Front-end* - [Github](https://github.com/caioalexandrebr/)
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+See also the list of contributors who participated in this project.
+
+* Luiz Henrique Soares - [Github](https://github.com/luizhenriquesoares)
