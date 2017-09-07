@@ -1,6 +1,6 @@
 @font-face {
   font-family: Condensed;
-  src: url('/font/MyriadProCondensed.ttf');
+  src: url('../font/MyriadProCondensed.ttf');
 }
 @font-face {
   font-family: 'Rokkitt';
@@ -194,7 +194,7 @@ q {
 header {
   height: 500px;
   background-color: #e5c6c1;
-  background: url('/img/purple/header-bg.jpg') fixed no-repeat;
+  background: url('../img/purple/header-bg.jpg') fixed no-repeat;
   -webkit-background-size: cover;
   -o-background-size: cover;
   -moz-background-size: cover;
@@ -321,13 +321,13 @@ header .header-int #header-bt a {
   margin: 0 auto;
 }
 .div_work aside .div_work_box .sketching {
-  background: url('/img/purple/work-ico1.jpg');
+  background: url('../img/purple/work-ico1.jpg');
 }
 .div_work aside .div_work_box .design {
-  background: url('/img/purple/work-ico2.jpg');
+  background: url('../img/purple/work-ico2.jpg');
 }
 .div_work aside .div_work_box .finalize {
-  background: url('/img/purple/work-ico3.jpg');
+  background: url('../img/purple/work-ico3.jpg');
 }
 .div_work aside .div_work_box h1 {
   color: #9b59b6;
@@ -388,19 +388,19 @@ main article .article-img {
 }
 main article .first-ficure {
   opacity: 0.5;
-  background-image: url('/img/purple/first-ficure.jpg');
+  background-image: url('../img/purple/first-ficure.jpg');
 }
 main article .second-ficure {
   opacity: 0.5;
-  background-image: url('/img/purple/second-ficure.jpg');
+  background-image: url('../img/purple/second-ficure.jpg');
 }
 main article .third-ficure {
   opacity: 0.5;
-  background-image: url('/img/purple/third-ficure.jpg');
+  background-image: url('../img/purple/third-ficure.jpg');
 }
 main article .fourth-ficure {
   opacity: 0.5;
-  background-image: url('/img/purple/fourth-ficure.jpg');
+  background-image: url('../img/purple/fourth-ficure.jpg');
 }
 main article .article-footer {
   left: 0;
@@ -442,7 +442,7 @@ main article .article-search {
   height: 40px;
   position: absolute;
   box-shadow: 0px 0px 0px 6px rgba(155, 89, 182, 0.3);
-  background: url('/img/purple/article-search.jpg');
+  background: url('../img/purple/article-search.jpg');
 }
 main article:hover .article-search {
   opacity: 1;
@@ -467,14 +467,14 @@ main article:hover .article-search {
   text-decoration: none;
   text-transform: uppercase;
   padding: 16px 60px 16px 20px;
-  background: #9b59b6 url('/img/purple/arrow.png') no-repeat 168px 18px;
+  background: #9b59b6 url('../img/purple/arrow.png') no-repeat 168px 18px;
   -webkit-transition: 0.5s ease-in;
   -moz-transition: 0.5s ease-in;
   -o-transition: 0.5s ease-in;
   transition: 0.5s ease-in;
 }
 .div_article_viewmore a:hover {
-  background: #6b3f7d url('/img/purple/arrow.png') no-repeat 168px 18px;
+  background: #6b3f7d url('../img/purple/arrow.png') no-repeat 168px 18px;
 }
 /* Fim Article */
 .div_form {
@@ -568,14 +568,14 @@ main article:hover .article-search {
   margin-top: 30px;
   width: 200px;
   padding: 16px 60px 16px 20px;
-  background: #9b59b6 url('/img/purple/arrow.png') no-repeat 138px 18px;
+  background: #9b59b6 url('../img/purple/arrow.png') no-repeat 138px 18px;
   -webkit-transition: 0.5s ease-in;
   -moz-transition: 0.5s ease-in;
   -o-transition: 0.5s ease-in;
   transition: 0.5s ease-in;
 }
 .div_form form input[type=submit]:hover {
-  background: #6b3f7d url('/img/purple/arrow.png') no-repeat 138px 18px;
+  background: #6b3f7d url('../img/purple/arrow.png') no-repeat 138px 18px;
 }
 .div_form form ::-webkit-input-placeholder {
   /* Chrome/Opera/Safari */
@@ -621,17 +621,17 @@ footer .div_footer_center .div_footer_center_sociais .div_footer_center_sociais_
 footer .div_footer_center .div_footer_center_sociais .div_footer_center_sociais_area .dribbble {
   width: 100%;
   height: 100%;
-  background: url('/img/purple/dribbble.png') no-repeat;
+  background: url('../img/purple/dribbble.png') no-repeat;
 }
 footer .div_footer_center .div_footer_center_sociais .div_footer_center_sociais_area .twitter {
   width: 100%;
   height: 100%;
-  background: url('/img/purple/twitter.png') no-repeat;
+  background: url('../img/purple/twitter.png') no-repeat;
 }
 footer .div_footer_center .div_footer_center_sociais .div_footer_center_sociais_area .facebook {
   width: 100%;
   height: 100%;
-  background: url('/img/purple/facebook.png') no-repeat;
+  background: url('../img/purple/facebook.png') no-repeat;
 }
 footer .div_footer_center .div_footer_center_sociais .div_footer_center_sociais_area #dribbble {
   width: 100px;
