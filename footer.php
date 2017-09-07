@@ -7,6 +7,6 @@
                 <div id="facebook"><a href="#"><div class="facebook"></div></a></div>
             </div>
         </div>
-        <div class="footer_autor">© Caio Alexandre - <a href="https://github.com/caioalexandrebr" alt="GitHub">GitHub</a> - <a href="https://www.linkedin.comin/caioalexandrebr/" alt="Linkedin">Linkedin</a></div>
+        <div class="footer_autor">© Caio Alexandre - <a href="https://github.com/caioalexandrebr/Variety" alt="GitHub">GitHub</a> - <a href="https://www.linkedin.comin/caioalexandrebr/" alt="Linkedin">Linkedin</a></div>
     </div>
 </footer>
